@@ -88,7 +88,7 @@ class War {
         const posDefender = Math.floor(Math.random() * defendingArmy.length);
         const defender = defendingArmy[posDefender];
 
-        const retDamage = defender.receiveDamage(attacker.strength);
+        const retDamage = defender.receiveDamage(attacker.attack());
 
         if (defender.health <= 0) {
             defendingArmy.splice(posDefender, 1);
