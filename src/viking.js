@@ -185,7 +185,6 @@ while (war.vikingArmy.length > 0 && war.saxonArmy.length > 0) {
 
     round++;
 
-
     // sorteia quem vai atacar
 
     const codeAttacker = Math.random() > 0.5 ? 'viking' : 'saxon';
